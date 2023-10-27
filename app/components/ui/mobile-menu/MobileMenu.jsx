@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 
-import { Links } from "@/constants/Links";
+import { Links } from "../../../../constants/Links";
 
 import { useState } from "react";
 

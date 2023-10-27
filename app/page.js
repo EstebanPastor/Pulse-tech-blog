@@ -1,9 +1,13 @@
-
+import Hero from "./components/ui/hero/Hero";
 
 function Home() {
   return (
-    <div className="text-white">page</div>
-  )
+    <>
+      <div className="dark:text-white">
+        <Hero />
+      </div>
+    </>
+  );
 }
 
-export default Home
+export default Home;

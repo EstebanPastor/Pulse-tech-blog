@@ -7,7 +7,7 @@ import Link from "next/link";
 import MobileMenu from "../mobile-menu/MobileMenu";
 import ThemeToggler from "../theme-toggler/ThemeToggler";
 
-import { Links } from "@/constants/Links";
+import { Links } from "../../../../constants/Links";
 
 import { IoMdPulse } from "react-icons/io";
 
