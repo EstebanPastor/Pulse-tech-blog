@@ -2,7 +2,7 @@
 
 function Home() {
   return (
-    <div className="text-medium">page</div>
+    <div className="text-white">page</div>
   )
 }
 
