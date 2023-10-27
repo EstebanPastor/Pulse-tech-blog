@@ -1,8 +1,11 @@
+import Posts from "../components/posts/Posts";
 
 const page = () => {
   return (
-    <div>page</div>
-  )
-}
+    <>
+      <Posts />
+    </>
+  );
+};
 
-export default page
+export default page;
