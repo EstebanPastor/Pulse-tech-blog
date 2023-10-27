@@ -5,7 +5,7 @@ export const posts = [
       image_url:
         "https://images.unsplash.com/photo-1633356122102-3fe601e05bd2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
       paragraph:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "Creating a responsive website with React is a fantastic way to build modern web applications that adapt to various screen sizes and devices. In this tutorial, we'll walk you through the essential steps to create a responsive website using React, ensuring that your content looks great on everything from large desktop monitors to mobile phones.",
       featured: true,
       tags: ["web development"],
       authorImage:
@@ -19,7 +19,7 @@ export const posts = [
       image_url:
         "https://images.unsplash.com/photo-1593349480506-8433634cdcbe?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
       paragraph:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "Artificial Intelligence (AI) has come a long way since its inception, and it's poised to shape the future in ways that were once thought to be purely science fiction. As we stand at the crossroads of technological innovation, the future of AI is nothing short of promising and transformative. In this article, we'll delve into the exciting potential of AI and what we can expect in the years to come..",
       featured: true,
       tags: ["artificial intelligence"],
       authorImage:
