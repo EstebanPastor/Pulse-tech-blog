@@ -1,6 +1,10 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Tech blog.
+
+Welcome to our tech blog, your go-to source for cutting-edge technology insights and in-depth tutorials. We cover a wide range of topics, from software development and data science to cybersecurity and emerging tech trends. Our team of tech enthusiasts and experts are dedicated to bringing you the latest news, tips, and tricks in the ever-evolving world of technology. Explore our repository to stay informed, learn new skills, and be a part of the tech community.
 
 ## Getting Started
+
+
 
 First, run the development server:
 
