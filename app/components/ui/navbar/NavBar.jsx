@@ -22,7 +22,7 @@ const NavBar = () => {
         <Link href={"/"} className="flex-1">
           <div className="flex gap-1 items-center">
             <h1 className="font-bold text-gray-900 text-2xl dark:text-white">
-              Tech blog
+              Tech pulse
             </h1>
             <IoMdPulse className="text-3xl text-sky-400" aria-hidden="true" />
           </div>
