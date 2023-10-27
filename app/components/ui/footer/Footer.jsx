@@ -2,8 +2,6 @@
 
 import useMenuActive from "../../../../hooks/useMenuActiveHook";
 
-import Link from "next/link";
-
 import LinkItem from "../link-item/LinkItem";
 
 import { Links } from "../../../../constants/Links";
@@ -13,6 +11,7 @@ const Footer = () => {
     <footer className="footer footer-center p-10 bg-base-200 text-base-content rounded dark:bg-dark dark:text-white border-t dark:border-none ">
       <nav className="grid grid-flow-col gap-4">
         {Links.map((link, index) => {
+          // eslint-disable-next-line react-hooks/rules-of-hooks
           const isActive = useMenuActive(link.route);
 
           return (

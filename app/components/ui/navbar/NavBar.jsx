@@ -29,6 +29,7 @@ const NavBar = () => {
         </Link>
         <div className="flex gap-8 max-lg:gap-5 items-center flex-1 max-md:hidden text-gray-600 dark:text-white justify-center">
           {Links.map((link, index) => {
+            // eslint-disable-next-line react-hooks/rules-of-hooks
             const isActive = useMenuActive(link.route);
 
             return (

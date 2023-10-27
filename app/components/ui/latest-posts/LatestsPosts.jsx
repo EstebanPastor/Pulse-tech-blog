@@ -20,7 +20,7 @@ const LatestsPosts = () => {
           </div>
           <div className="grid lg:grid-cols-3 gap-10 grid-cols-2 max-sm:grid-cols-1 mt-10">
             {posts.slice(7, 13).map((post, index) => (
-              <PostCard post={post} index={index} />
+              <PostCard post={post} key={index} index={index} />
             ))}
           </div>
         </div>
