@@ -26,7 +26,7 @@ const Posts = () => {
         />
         <div className="grid md:grid-cols-2 grid-cols-1 gap-5">
           {filtered.slice(0, visiblePosts).map((post, index) => (
-            <PostCard post={post}/>
+            <PostCard post={post} key={index}/>
           ))}
         </div>
         <div className="py-10">

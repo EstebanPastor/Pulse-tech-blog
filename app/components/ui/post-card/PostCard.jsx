@@ -41,6 +41,7 @@ const PostCard = ({ post, index }) => {
               src={post.authorImage}
               width={40}
               height={40}
+              alt="author image"
               className="rounded-full object-cover w-10 h-10 border-2 border-sky-400 cursor-pointer"
             />
             <div className="flex gap-2 dark:text-white text-gray-500 text-sm">

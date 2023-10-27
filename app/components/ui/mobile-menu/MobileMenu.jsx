@@ -22,7 +22,7 @@ const MobileMenu = () => {
         <input
           type="checkbox"
           onClick={mobileMenuHandler}
-          checked={openMobileMenu ? false : true}
+          defaultChecked={openMobileMenu ? false : true}
         />
         <HiMenu className="dark:text-white swap-on fill-current w-6 h-6" />
         <MdOutlineClose className="dark:text-white swap-off fill-current w-6 h-6" />
