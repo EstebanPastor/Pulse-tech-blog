@@ -11,6 +11,10 @@ import { Links } from "@/constants/Links";
 
 import { IoMdPulse } from "react-icons/io";
 
+import useMenuActive from "../../../../hooks/useMenuActiveHook";
+
+import LinkItem from "../link-item/LinkItem";
+
 const NavBar = () => {
   return (
     <nav className="w-full py-5 dark:bg-dark">
@@ -24,11 +28,13 @@ const NavBar = () => {
           </div>
         </Link>
         <div className="flex gap-8 max-lg:gap-5 items-center flex-1 max-md:hidden text-gray-600 dark:text-white justify-center">
-          {Links.map((link, index) => (
-            <Link key={link.index} href={link.route}>
-              {link.label}
-            </Link>
-          ))}
+          {Links.map((link, index) => {
+            const isActive = useMenuActive(link.route);
+
+            return (
+              <LinkItem key={index} route={link.route} label={link.label} isActive={isActive}/>
+            );
+          })}
         </div>
         <div className="flex-1 justify-end flex gap-3 items-center">
           <ThemeToggler />
